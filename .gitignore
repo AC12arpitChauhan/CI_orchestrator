@@ -1,0 +1,24 @@
+# Binaries
+/server
+/worker
+/ci_executor
+
+# OS Specific
+.DS_Store
+
+# Go files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Data directories (ignore generated pipelines and ephemeral workspaces)
+/data/
+!/data/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
