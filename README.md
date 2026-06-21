@@ -4,6 +4,8 @@ An educational, high-performance, distributed CI/CD execution engine built entir
 
 ## 🏗 Architecture & Features
 
+
+
 This project was built iteratively, focusing heavily on concurrency, distributed systems, and real-time networking:
 
 - **Distributed Client-Server Architecture**: The `Server` acts as the queue orchestrator and state manager, while `Worker` nodes continuously poll for jobs and execute them, allowing infinite horizontal scaling.
