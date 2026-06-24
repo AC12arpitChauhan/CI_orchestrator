@@ -5,6 +5,8 @@
 
 This project was built iteratively, focusing heavily on concurrency, distributed systems, and real-time networking:
 
+
+
 - **Distributed Client-Server Architecture**: The `Server` acts as the queue orchestrator and state manager, while `Worker` nodes continuously poll for jobs and execute them, allowing infinite horizontal scaling.
 - **Dockerized Execution**: Jobs run inside ephemeral Docker containers (e.g., `ubuntu`, `alpine`). The host machine is never touched by user workloads.
 - **IPC State Bridging**: Steps share environment variables natively using a custom file-based Inter-Process Communication (IPC) bridge, mirroring the `$GITHUB_ENV` pattern.
