@@ -1,9 +1,6 @@
 # Distributed CI/CD Pipeline Orchestrator
 
-
-demoooo
 ## 🏗 Architecture & Features
-
 
 
 This project was built iteratively, focusing heavily on concurrency, distributed systems, and real-time networking:
