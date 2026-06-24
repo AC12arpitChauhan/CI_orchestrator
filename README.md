@@ -1,7 +1,6 @@
 # Distributed CI/CD Pipeline Orchestrator
 
 
-
 ## 🏗 Architecture & Features
 
 
