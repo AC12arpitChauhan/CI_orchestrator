@@ -73,5 +73,5 @@ Replace `<pipeline-id>` with the ID returned by the POST request above:
 ```bash
 curl -N http://localhost:8080/pipelines/stream/<pipeline-id>
 ```
-
+demo
 *(Note: The `-N` flag tells curl not to buffer the output, so you see the stream instantly).*
